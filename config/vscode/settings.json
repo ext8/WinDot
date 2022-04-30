@@ -1,0 +1,187 @@
+{
+    // customisation
+    "window.title": "💻・${activeEditorShort} ⇒ 📁・${rootName}",
+    "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    // FontSettings
+    "editor.fontSize": 13.5,
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 1,
+    "editor.fontLigatures": true,
+    // editor
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+    // terminal
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+    // markdown
+    "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
+    /*
+      terminal
+    */
+    // cursor
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    // design
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.bellDuration": 0,
+    // keyboard
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.allowChords": true,
+    "terminal.integrated.profiles.windows": {
+        "Terminal": {
+            "icon": "terminal-bash",
+            "color": "terminal.ansiBlack",
+            "env": {
+                "vscode_terminal": "$true"
+            },
+            "path": "pwsh.exe",
+            "args": [
+                "-noexit",
+                "-nologo"
+            ]
+        },
+        // Useless
+        "JavaScript Debug Terminal": null,
+        "Windows PowerShell": null,
+        "Command Prompt": null,
+        "Git Bash": null,
+    },
+    // to be changed soon...
+    "terminal.integrated.defaultProfile.windows": "Terminal",
+    "workbench.colorCustomizations": {
+        // terminal
+        "terminal.background": "#292828",
+        "terminal.foreground": "#D4BE98",
+        // Cursor
+        "terminalCursor.background": "#504945",
+        "terminalCursor.foreground": "#D4BC9C",
+        // White
+        "terminal.ansiBrightWhite": "#D4BE98",
+        "terminal.ansiWhite": "#D4BE98",
+        // Black
+        "terminal.ansiBrightBlack": "#2C2C2C",
+        "terminal.ansiBlack": "#2C2C2C",
+        // Red
+        "terminal.ansiBrightRed": "#EA6962",
+        "terminal.ansiRed": "#B85651",
+        // Yellow
+        "terminal.ansiBrightYellow": "#D29B4D",
+        "terminal.ansiYellow": "#D29B4D",
+        // Green
+        "terminal.ansiBrightGreen": "#99AE63",
+        "terminal.ansiGreen": "#99AE63",
+        // Blue
+        "terminal.ansiBrightBlue": "#7DAEA3",
+        "terminal.ansiBlue": "#7DAEA3",
+        // Cyan
+        "terminal.ansiBrightCyan": "#89B482",
+        "terminal.ansiCyan": "#89B482",
+        // Magenta
+        "terminal.ansiBrightPurple": "#D3869B",
+        "terminal.ansiPurple": "#D3869B"
+    },
+    // hidden files
+    "files.exclude": {
+        // cache
+        "__pycache__/": true,
+        "**/__pycache__/": true,
+        // scm
+        "**/.git": false,
+        // ide settings
+        "**/.idea": true,
+        "**/.vscode": true,
+        // venv
+        "Pipfile": true,
+        "Pipfile.lock": true,
+    },
+    // Scroll bar
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.smoothScrolling": true,
+    "editor.fastScrollSensitivity": 0,
+    // formatting
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    // linting
+    "editor.autoIndent": "advanced",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    // most-ui
+    "window.menuBarVisibility": "toggle",
+    "workbench.sideBar.location": "right",
+    // more-ui
+    "editor.minimap.enabled": false,
+    "workbench.editor.wrapTabs": false,
+    // less-ui
+    "editor.cursorBlinking": "smooth",
+    "editor.suggest.preview": true,
+    // confirmBox
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // least-ui
+    "window.zoomLevel": 1,
+    "workbench.tree.indent": 14,
+    // preview
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.untitled.hint": "hidden",
+    // misc
+    "problems.showCurrentInStatus": true,
+    "explorer.incrementalNaming": "smart",
+    "settingsSync.keybindingsPerPlatform": true,
+    // git
+    "scm.countBadge": "off",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // nothing.  (thank me later for the comment...)
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "readme",
+    "telemetry.telemetryLevel": "off",
+    "files.autoSave": "afterDelay",
+    // extensions
+    // path-intellisense
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.showHiddenFiles": true,
+    // error lens
+    "errorLens.fontStyleItalic": true,
+    "errorLens.gutterIconSet": "circle",
+    "errorLens.messageTemplate": "$severity v$message",
+    "errorLens.severityText": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "errorLens.statusBarColorsEnabled": true,
+    // gruvboxMaterial
+    "gruvboxMaterial.italicKeywords": true,
+    // intellisense
+    "vsintellicode.features.apiExamples": "enabled",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "vsintellicode.java.completionsEnabled": false,
+    "vsintellicode.typescript.completionsEnabled": false,
+    // pylance
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.condaPath": "conda",
+    "python.disableInstallationCheck": true,
+    "python.venvPath": "C:\\users\\ext8\\minconda3\\envs\\",
+    // togglequotes
+    "togglequotes.chars": [
+        "`",
+        "\"",
+        "'",
+        "\"\"\""
+    ],
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+}

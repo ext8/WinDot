@@ -1,0 +1,11 @@
+{
+  "SCOOP_REPO": "https://github.com/ScoopInstaller/Scoop",
+  "SCOOP_BRANCH": "master",
+  "cat_style": "full",
+  "manifest_review": true,
+  "show_update_log": false,
+  "default_architecture": "64bit",
+  "MSIEXTRACT_USE_LESSMSI": true,
+  "aria2-enabled": true,
+  "aria2-warning-enabled": false
+}

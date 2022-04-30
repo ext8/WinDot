@@ -1,0 +1,106 @@
+{
+    "ScoopInstaller": {
+        "path": "~/AppData/scoop",
+        "bucket": [
+            "main",
+            "extras"
+        ],
+        "app": [
+            "authy",
+            "7zip",
+            "spotify",
+            "ungoogled-chromium",
+            "vscode",
+            "sublime-text",
+            "windows-terminal",
+            "pwsh",
+            "oh-my-posh",
+            "git",
+            "aria2",
+            "lessmsi",
+            "nvm",
+            "micro",
+            "bat",
+            "touch",
+            "ugrep",
+            "which",
+            "gsudo"
+        ]
+    },
+    "DotConfig": {
+        "conda": {
+            "path": [
+                "~/.condarc"
+            ],
+            "symlink": [
+                "~/.config/conda/.condarc"
+            ]
+        },
+        "npm": {
+            "path": [
+                "~/.npmcr"
+            ],
+            "symlink": [
+                "~/.config/npm/.npmrc"
+            ]
+        },
+        "pwsh": {
+            "path": [
+                "~/AppData/scoop/persist/pwsh/Microsoft.PowerShell_profile.ps1",
+                "~/AppData/scoop/persist/pwsh/.env.ps1"
+            ],
+            "symlink": [
+                "~/.config/pwsh/Microsoft.Powershell_profile.ps1",
+                "~/.config/pwsh/.env.ps1"
+            ]
+        },
+        "scoop": {
+            "path": [
+                "~/.config/scoop/config.json"
+            ],
+            "symlink": [
+                "None"
+            ]
+        },
+        "git": {
+            "path": [
+                "~/.gitconfig",
+                "~/.gitignore"
+            ],
+            "symlink": [
+                "~/.config/git/.gitconfig",
+                "~/.config/git/.gitignore"
+            ]
+        },
+        "terminal": {
+            "path": [
+                "~/AppData/Local/Microsoft/Windows Terminal/settings.json"
+            ],
+            "symlink": [
+                "~/.config/terminal/settings.json"
+            ]
+        },
+        "vscode": {
+            "path": [
+                "~/AppData/scoop/persist/settings.json",
+                "~/AppData/scoop/persist/keybindings.json"
+            ],
+            "symlink": [
+                "~/.config/vscode/settings.json",
+                "~/.config/vscode/keybindings.json"
+            ]
+        },
+        "sublime_text": {
+            "path": [
+                "~/AppData/scoop/persist/sublime-text/Data/Packages/User/",
+                "~/AppData/scoop/persist/sublime-text/Data/Packages/User/",
+                "~/AppData/scoop/persist/sublime-text/Data/Packages/User/"
+            ],
+            "symlink": [
+                "~/.config/sublime-text/",
+                "~/.config/sublime-text/",
+                "~/.config/sublime-text/"
+            ]
+        }
+    }
+}

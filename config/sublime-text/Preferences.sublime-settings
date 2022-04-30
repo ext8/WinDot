@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Gruvbox Dark/gruvbox.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Gruvbox Material Dark.sublime-theme",
+	"font_face":"JetBrainsMono Nerd Font",
+	"font_size": 13,
+
+}

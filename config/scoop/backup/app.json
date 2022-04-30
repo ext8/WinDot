@@ -1,0 +1,26 @@
+{
+    "apps": [
+        // main
+        "authy",
+        "7zip",
+        "spotify",
+        "ungoogled-chromium",
+        "vscode",
+        "sublime-text",
+        "windows-terminal",
+        // cli
+        "pwsh",
+        "oh-my-posh",
+        "git",
+        "aria2",
+        "lessmsi",
+        "nvm",
+        "micro",
+        // unix-utils
+        "bat",
+        "touch",
+        "ugrep",
+        "which",
+        "gsudo"
+    ]
+}
